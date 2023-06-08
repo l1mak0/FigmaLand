@@ -251,3 +251,66 @@ form{
 .partners{
     margin-top: 130px;
 }
+.partners_carts{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    align-items: center;
+    padding: 31px 40px;
+    gap: 15px;
+    height: 175px;
+}
+.partners_carts .text{
+    font-family: 'Graphik', sans-serif;
+    font-size: 16px;
+    color: #374574;
+
+}
+.partners .container .btn{
+    margin: 0 auto;
+    display: block;
+    width: max-content;
+}
+.partners_items{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 1087px;
+    margin: 80px auto;
+    flex-wrap: wrap;
+}
+.t_img{
+    display: block;
+    margin: 80px auto 0;
+}
+.testimonials .container .subtitle_block{
+    margin: 50px auto;
+    text-align: center;
+    width: 967px;
+}
+.author{
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "img name" "img info";
+    width: max-content;
+}
+.author img{
+    grid-area: img;
+    margin: 13px;
+}
+.author_name{
+    font-family: 'Graphik', sans-serif;
+    font-size: 16px;
+    color: #374574;
+}
+.author_info{
+    font-family: 'Graphik', sans-serif;
+    font-size: 15px;
+    color: #252B42;
+}
+.testimonials .container .btn{
+    margin: 80px auto;
+    display: block;
+    width: max-content;
+}
